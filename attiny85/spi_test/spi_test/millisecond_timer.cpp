@@ -28,7 +28,7 @@ namespace scottz0r { namespace ms {
         constexpr uint8_t ctc_match = (F_CPU / 1000) / 8;
             
         // WGM01 = CTC
-        TCCR0A |= (1 << WGM01) ;
+        TCCR0A |= (1 << WGM01);
             
         // CS01 = 8 prescalar
         TCCR0B |= (1 << CS01);
