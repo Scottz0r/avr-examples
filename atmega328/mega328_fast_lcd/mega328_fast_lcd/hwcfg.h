@@ -1,0 +1,6 @@
+#ifndef _HWCFG_INCLUDE_GUARD
+#define _HWCFG_INCLUDE_GUARD
+
+#define F_CPU 16000000
+
+#endif // _HWCFG_INCLUDE_GUARD
